@@ -6,6 +6,8 @@ order by carga asc;
 select *from cursos
 order by nome desc;
 
+select *from cursos
+order by ano desc;
 
 select nome, carga, ano from cursos
 order by ano, nome desc; 
